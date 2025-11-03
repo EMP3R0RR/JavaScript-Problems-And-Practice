@@ -1,3 +1,4 @@
+//Number Triangle (1 increasing each row)
 let rows = 4;
 for (let i = 1; i <= rows; i++) {
     let line = "";
