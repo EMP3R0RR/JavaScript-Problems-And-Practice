@@ -1,5 +1,5 @@
 //Generate Fibonacci sequence
-
+const prompt = require('prompt-sync')();
 let n = parseInt(prompt("Enter how many Fibonacci numbers:"));
 let a = 0, b = 1;
 

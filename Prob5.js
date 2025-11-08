@@ -1,5 +1,5 @@
 //Check if a number is a palindrome
-
+const prompt = require('prompt-sync')();
 let num = parseInt(prompt("Enter a number:"));
 let original = num;
 let reversed = 0;
@@ -9,5 +9,7 @@ while (num !== 0) {
     num = Math.floor(num / 10);
 }
 
-if (reversed === original) console.log("Palindrome");
-else console.log("Not a palindrome");
+if (reversed === original) 
+    console.log("Palindrome");
+else 
+    console.log("Not a palindrome");
